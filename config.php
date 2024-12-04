@@ -1,7 +1,9 @@
 <?php
-$dbname = 'mysql:host=localhost;dbname=coffee_shop';
-$username = 'root';
-$password = '';
 
-$conn = new PDO($dbname,$username,$password);
+   $db_name = "mysql:host=localhost;dbname=pizza_db";
+   $username = "root";
+   $password = "";
 
+   $conn = new PDO($db_name, $username, $password);
+
+?>
